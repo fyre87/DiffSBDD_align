@@ -1,7 +1,11 @@
 # New files for align:
 
 lightning_modules_align.py
+
 process_sample.py
+
+evaluate_sample.py
+
 dataset_align.py
 
 
