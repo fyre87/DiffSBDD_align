@@ -1,3 +1,10 @@
+# New files for align:
+
+lightning_modules_align.py
+process_sample.py
+dataset_align.py
+
+
 # DiffSBDD: Structure-based Drug Design with Equivariant Diffusion Models
 
 Official implementation of **DiffSBDD**, an equivariant model for structure-based drug design, by Arne Schneuing*, Yuanqi Du*, Charles Harris, Arian Jamasb, Ilia Igashov, Weitao Du, Tom Blundell, Pietro Lió, Carla Gomes, Max Welling, Michael Bronstein & Bruno Correia.
