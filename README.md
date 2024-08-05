@@ -8,6 +8,18 @@ evaluate_sample.py
 
 dataset_align.py
 
+train_align.py
+
+## Order of operations:
+
+1) generate_ligands.py to generate samples
+
+2) evaluate_samples.py to grade them
+
+3) process_sample.py to get them ready for training
+
+4) train_align.py to train with them
+
 
 # DiffSBDD: Structure-based Drug Design with Equivariant Diffusion Models
 
