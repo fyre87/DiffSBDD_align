@@ -8,7 +8,7 @@ import pytorch_lightning as pl
 import yaml
 import numpy as np
 
-from lightning_modules import LigandPocketDDPM
+from lightning_modules_align import LigandPocketDDPM
 
 
 def merge_args_and_yaml(args, config_dict):

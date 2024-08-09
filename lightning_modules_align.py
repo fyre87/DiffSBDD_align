@@ -440,8 +440,9 @@ class LigandPocketDDPM(pl.LightningModule):
             #     raise e
             raise e
             
-        model_diff = good_nll - bad_nll
-        ref_diff = ref_good_nll - ref_bad_nll
+        # Multiply by negative one to make it log likelyhood instead of negative log likelyhood
+        model_diff = -1*(good_nll - bad_nll)
+        ref_diff = -1*(ref_good_nll - ref_bad_nll)
 
         
         beta_dpo = 0.1
